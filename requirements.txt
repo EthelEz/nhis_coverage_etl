@@ -1,0 +1,4 @@
+python-docx-1.1.2 
+whoosh-2.7.4
+fhirpy
+pandas
