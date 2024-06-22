@@ -26,7 +26,7 @@ Choose or set up a FHIR server to interact with FHIR resources. You can use publ
 
 ## Running the FHIR Server locally
 
-1. Download the repository. 
+1. Download the repository to your preferred directory. 
 
     ``` git clone https://github.com/EthelEz/nhis_coverage_etl.git ```
 
