@@ -38,7 +38,7 @@ Choose or set up a FHIR server to interact with FHIR resources. You can use publ
 
 1. Make sure you have `npm`, `Vue.js`, and Node.js v4 installed. If you don't have them yet installed, we recommend using [`nvm`](https://github.com/creationix/nvm) and [`Vue.js`](https://vuejs.org/).
 
-2. Ensure you have [Python 3.x](https://www.python.org/downloads/) installed and [fhirpy](https://pypi.org/project/fhirpy/#conditional-update) for fhir data manipulation by running `python requirements.txt` file.
+2. Ensure you have [Python 3.x](https://www.python.org/downloads/) installed and [fhirpy](https://pypi.org/project/fhirpy/#conditional-update) for fhir data manipulation by running `pip install -r requirements.txt` file.
 
 3. Now the FHIR API is up and running, we created a fake `NHIS-data.csv`, use the script demonstrated here to transform it to FHIR by running ```python main.py```
 
