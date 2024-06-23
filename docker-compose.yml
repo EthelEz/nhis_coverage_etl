@@ -14,6 +14,8 @@ services:
       hapi.fhir.subscription.resthook_enabled: "true"
       hapi.fhir.subscription.websocket_enabled: "true"
       hapi.fhir.client_id_strategy: ANY
+    depends_on:
+      - fhir-db
   fhir-db:
     image: postgres
     restart: always
