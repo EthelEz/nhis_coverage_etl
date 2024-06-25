@@ -8,8 +8,8 @@ from processing import get_principal_id, get_spouse_id, get_fchild_id, get_schil
 _ = load_dotenv(find_dotenv())
 api_url = os.environ['local_url']
 
-csv_nhia = os.environ['csv_nhis']
-json_nhia = os.environ['json_nhis']
+csv_nhia = os.environ['csv_nhia']
+json_nhia = os.environ['json_nhia']
 
 nhis_coverage_data = convert_csv2_json(csv_nhia, json_nhia)
 
